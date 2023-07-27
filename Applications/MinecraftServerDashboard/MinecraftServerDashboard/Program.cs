@@ -2,7 +2,7 @@ using System.Diagnostics;
 using System.Management.Automation;
 using Microsoft.AspNetCore.Components;
 using Microsoft.AspNetCore.Components.Web;
-using MinecraftServerDashboard.JsonClasses;
+using ButtonData.Json;
 
 namespace MinecraftServerDashboard
 {

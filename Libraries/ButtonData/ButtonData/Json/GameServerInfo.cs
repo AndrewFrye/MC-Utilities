@@ -1,6 +1,6 @@
-﻿using System.Text.Json.Serialization;
+﻿using Newtonsoft.Json;
 
-namespace MinecraftServerDashboard.JsonClasses;
+namespace ButtonData.Json;
 
 [Serializable]
 public class GameServerInfo

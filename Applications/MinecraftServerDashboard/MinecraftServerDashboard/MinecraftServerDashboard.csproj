@@ -19,4 +19,8 @@
     <PackageReference Include="XtermBlazor" Version="1.9.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Libraries\ButtonData\ButtonData\ButtonData.csproj" />
+  </ItemGroup>
+
 </Project>

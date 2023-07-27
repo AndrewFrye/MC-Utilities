@@ -5,6 +5,8 @@ VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MinecraftServerDashboard", "MinecraftServerDashboard\MinecraftServerDashboard.csproj", "{B71154E8-33E3-495E-A445-E250A00C8145}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ButtonData", "..\..\Libraries\ButtonData\ButtonData\ButtonData.csproj", "{918D3EF2-9545-43AD-B07F-370C74E90C10}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B71154E8-33E3-495E-A445-E250A00C8145}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B71154E8-33E3-495E-A445-E250A00C8145}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B71154E8-33E3-495E-A445-E250A00C8145}.Release|Any CPU.Build.0 = Release|Any CPU
+		{918D3EF2-9545-43AD-B07F-370C74E90C10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{918D3EF2-9545-43AD-B07F-370C74E90C10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{918D3EF2-9545-43AD-B07F-370C74E90C10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{918D3EF2-9545-43AD-B07F-370C74E90C10}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
