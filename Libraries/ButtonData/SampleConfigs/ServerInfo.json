@@ -1,0 +1,16 @@
+{
+  "GameDir": "\\Minecraft1.20\\Server",
+  "ExecutablePath": "\\Minecraft1.20\\Server\\Run.cmd",
+  "GameDisplayName": "Minecraft Vanilla 1.20",
+  "GameCode": {
+    "id": 0,
+    "Description": "Minecraft",
+    "Version": "Minecraft Forge 1.20"
+  },
+  "GameArgs": [
+    {
+      "Name": "WhitelistPath",
+      "Value": "\\Minecraft1.20\\Server\\whitelist.json"
+    }
+  ]
+}

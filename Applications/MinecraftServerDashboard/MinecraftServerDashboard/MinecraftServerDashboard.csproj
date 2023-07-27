@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <DockerDefaultTargetOS>Windows</DockerDefaultTargetOS>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.PowerShell.Commands.Diagnostics" Version="7.2.12" />
+    <PackageReference Include="Microsoft.PowerShell.Commands.Management" Version="7.2.12" />
+    <PackageReference Include="Microsoft.PowerShell.Commands.Utility" Version="7.2.12" />
+    <PackageReference Include="Microsoft.PowerShell.ConsoleHost" Version="7.2.12" />
+    <PackageReference Include="Microsoft.PowerShell.Native" Version="7.4.0-preview.2" />
+    <PackageReference Include="Microsoft.PowerShell.SDK" Version="7.4.0-preview.4" />
+    <PackageReference Include="Microsoft.WSMan.Management" Version="7.2.12" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="XtermBlazor" Version="1.9.0" />
+  </ItemGroup>
+
+</Project>
