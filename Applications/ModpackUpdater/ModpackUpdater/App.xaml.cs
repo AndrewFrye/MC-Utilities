@@ -1,11 +1,12 @@
-﻿namespace ModpackUpdater;
-
-public partial class App : Application
+﻿namespace ModpackUpdater
 {
-    public App()
+    public partial class App : Application
     {
-        InitializeComponent();
+        public App()
+        {
+            InitializeComponent();
 
-        MainPage = new AppShell();
+            MainPage = new AppShell();
+        }
     }
 }

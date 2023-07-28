@@ -4,16 +4,11 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:local="clr-namespace:ModpackUpdater"
-    Shell.FlyoutBehavior="Flyout">
+    Shell.FlyoutBehavior="Disabled">
 
     <ShellContent
         Title="Home"
         ContentTemplate="{DataTemplate local:MainPage}"
         Route="MainPage" />
-    
-    <ShellContent 
-        Title="Update Pack"
-        ContentTemplate="{DataTemplate local:UpdatePack}"
-        Route="UpdatePack" />
 
 </Shell>
