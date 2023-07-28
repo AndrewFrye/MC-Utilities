@@ -10,6 +10,15 @@ public partial class UpdatePack : ContentPage
 {
     public UpdatePack()
     {
+        getMMCInstances();
+        
         InitializeComponent();
+    }
+
+    public List<string> MMCInstances;
+
+    public void getMMCInstances()
+    {
+        
     }
 }
