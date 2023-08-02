@@ -4,30 +4,38 @@
              x:Class="Client.MainPage">
 
     <ScrollView>
-        <VerticalStackLayout
-            Spacing="25"
-            Padding="30,0"
-            VerticalOptions="Center">
-
-            <Button
-                x:Name="Start"
-                Text="Start"
-                Clicked="OnStartClicked"
-                HorizontalOptions="Center" />
+        <AbsoluteLayout Margin="20">
             
-            <Button
-                x:Name="backup"
-                Text="backup"
-                Clicked="OnStartClicked"
-                HorizontalOptions="Center" />
+            <VerticalStackLayout
+                x:Name="LeftButtonPanel"
+                AbsoluteLayout.LayoutBounds="0, 0, AutoSize, AutoSize"
+                AbsoluteLayout.LayoutFlags="PositionProportional"
+                Padding="10"
+                Spacing="10"
+                MaximumWidthRequest="100">
+                
+                <Button 
+                    x:Name="Start"
+                    Text="Start"
+                    Clicked="OnStartClicked"
+                    HorizontalOptions="Fill" />
             
-            <Button
-                x:Name="stop"
-                Text="stop"
-                Clicked="OnstopClicked"
-                HorizontalOptions="Center" />
+                <Button 
+                    x:Name="backup"
+                    Text="backup"
+                    Clicked="OnBackupClicked"
+                    HorizontalOptions="Fill" />
+            
+                <Button 
+                    x:Name="stop"
+                    Text="stop"
+                    Clicked="OnStopClicked"
+                    HorizontalOptions="Fill" />
+                
+            </VerticalStackLayout>
+            
 
-        </VerticalStackLayout>
+        </AbsoluteLayout>
     </ScrollView>
 
 </ContentPage>

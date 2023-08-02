@@ -12,5 +12,13 @@
         {
 
         }
+        private void OnStopClicked(object sender, EventArgs e)
+        {
+
+        }
+        private void OnBackupClicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }
