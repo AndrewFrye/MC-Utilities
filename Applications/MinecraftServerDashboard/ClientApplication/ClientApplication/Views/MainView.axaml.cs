@@ -1,12 +1,11 @@
 using Avalonia.Controls;
 
-namespace ClientDashboard.Views;
+namespace ClientApplication.Views;
 
 public partial class MainView : UserControl
 {
     public MainView()
     {
         InitializeComponent();
-        DataContext = new MainView();
     }
 }

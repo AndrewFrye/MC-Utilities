@@ -2,7 +2,7 @@
 using Avalonia;
 using Avalonia.ReactiveUI;
 
-namespace ClientDashboard.Desktop;
+namespace ClientApplication.Desktop;
 
 sealed class Program
 {

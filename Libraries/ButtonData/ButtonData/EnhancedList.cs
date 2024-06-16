@@ -1,4 +1,7 @@
-﻿namespace ButtonData;
+﻿using System.Collections;
+using System.Linq.Expressions;
+
+namespace ButtonData;
 
 public class EnhancedList<T>
 {
@@ -19,4 +22,8 @@ public class EnhancedList<T>
         ItemRemoved?.Invoke(this, new DataEventArgs(_contents[index]));
         _contents.RemoveAt(index);
     }
+
+    public void ForEach(Action<T> action) => _contents.ForEach(action);
+
+    public T GetAt(int index) => _contents[index];
 }

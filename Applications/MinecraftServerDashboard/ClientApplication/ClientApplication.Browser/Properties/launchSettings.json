@@ -1,6 +1,6 @@
 {
   "profiles": {
-    "ClientDashboard.Browser": {
+    "ClientApplication.Browser": {
       "commandName": "Project",
       "launchBrowser": true,
       "environmentVariables": {

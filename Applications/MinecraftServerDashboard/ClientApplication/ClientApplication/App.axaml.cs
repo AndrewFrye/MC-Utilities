@@ -1,10 +1,10 @@
 using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
-using ClientDashboard.ViewModels;
-using ClientDashboard.Views;
+using ClientApplication.ViewModels;
+using ClientApplication.Views;
 
-namespace ClientDashboard;
+namespace ClientApplication;
 
 public partial class App : Application
 {

@@ -5,11 +5,13 @@ VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ButtonData", "..\..\Libraries\ButtonData\ButtonData\ButtonData.csproj", "{918D3EF2-9545-43AD-B07F-370C74E90C10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientDashboard", "ClientDashboard\ClientDashboard\ClientDashboard.csproj", "{CE4C5828-4CC2-4409-BD1B-527F0BA9AF40}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientDashboard.Browser", "ClientDashboard\ClientDashboard.Browser\ClientDashboard.Browser.csproj", "{84541A37-7398-4B01-90F3-807266DF8C87}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerRunner", "ServerRunner\ServerRunner.csproj", "{C8B8F0AF-1865-48BE-AFE8-D4EC50BFE1F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientApplication", "ClientApplication\ClientApplication\ClientApplication.csproj", "{0F63C0BC-DA30-498A-B196-AC2EC3962125}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientApplication.Desktop", "ClientApplication\ClientApplication.Desktop\ClientApplication.Desktop.csproj", "{2058F152-CE28-4E4A-916C-4DAE300AFD75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientApplication.Browser", "ClientApplication\ClientApplication.Browser\ClientApplication.Browser.csproj", "{57793E83-A5D7-4F04-8668-FBF82B5358CB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,18 +23,22 @@ Global
 		{918D3EF2-9545-43AD-B07F-370C74E90C10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{918D3EF2-9545-43AD-B07F-370C74E90C10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{918D3EF2-9545-43AD-B07F-370C74E90C10}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CE4C5828-4CC2-4409-BD1B-527F0BA9AF40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CE4C5828-4CC2-4409-BD1B-527F0BA9AF40}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CE4C5828-4CC2-4409-BD1B-527F0BA9AF40}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CE4C5828-4CC2-4409-BD1B-527F0BA9AF40}.Release|Any CPU.Build.0 = Release|Any CPU
-		{84541A37-7398-4B01-90F3-807266DF8C87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{84541A37-7398-4B01-90F3-807266DF8C87}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{84541A37-7398-4B01-90F3-807266DF8C87}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{84541A37-7398-4B01-90F3-807266DF8C87}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C8B8F0AF-1865-48BE-AFE8-D4EC50BFE1F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C8B8F0AF-1865-48BE-AFE8-D4EC50BFE1F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C8B8F0AF-1865-48BE-AFE8-D4EC50BFE1F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C8B8F0AF-1865-48BE-AFE8-D4EC50BFE1F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F63C0BC-DA30-498A-B196-AC2EC3962125}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F63C0BC-DA30-498A-B196-AC2EC3962125}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F63C0BC-DA30-498A-B196-AC2EC3962125}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F63C0BC-DA30-498A-B196-AC2EC3962125}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2058F152-CE28-4E4A-916C-4DAE300AFD75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2058F152-CE28-4E4A-916C-4DAE300AFD75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2058F152-CE28-4E4A-916C-4DAE300AFD75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2058F152-CE28-4E4A-916C-4DAE300AFD75}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57793E83-A5D7-4F04-8668-FBF82B5358CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57793E83-A5D7-4F04-8668-FBF82B5358CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57793E83-A5D7-4F04-8668-FBF82B5358CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57793E83-A5D7-4F04-8668-FBF82B5358CB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

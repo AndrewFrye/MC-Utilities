@@ -1,7 +1,8 @@
 ﻿using ReactiveUI;
 
-namespace ClientDashboard.ViewModels;
+namespace ClientApplication.ViewModels;
 
 public class ViewModelBase : ReactiveObject
 {
+    
 }
